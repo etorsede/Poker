@@ -1,0 +1,21 @@
+def reveal():
+#    #global count
+    #label2.config(text=f"You've voted: {player_value2} story points")
+    print("hora")
+    for i in numb1:
+        if i == player_value1:
+            number_temp = i
+            photo_temp = "photo{}".format(number_temp)
+            print(photo_temp)
+            time.sleep(5)
+            type(photo_temp)
+            time.sleep(3)
+
+            label3.config(image=photo_temp)
+
+
+
+label5=tk.Button(win, text="Reveal", command=reveal)
+label5.pack()
+label5.place(relx = 0.9,
+                   rely = 0.39)
